@@ -1,0 +1,64 @@
+#barra{
+position: fixed;
+background-color: cyan;
+height: 60px;
+width: 100%;
+position: fixed;
+top: 10px;
+left: 10px;
+}
+body{
+margin: 0px;
+
+}
+#contenedor{
+background-color: brown;
+height: 1500px;
+width: 100%;
+}
+#contenedor1{
+    background-color: rgb(30, 173, 54);
+    height: 1500px;
+    width: 100%;
+    position: relative;
+    }
+        #barra1{
+        position: absolute;
+        background-color: rgb(65, 15, 247);
+        height: 100px;
+        width: 100px;
+        bottom:10px;
+        }
+        #barra2{
+            position: absolute;
+            background-color: rgb(186, 204, 146);
+            height: 100px;
+            width: 100px;
+            top:10px;
+            }
+        #barra3{
+                position: absolute;
+                background-color: rgb(102, 143, 197);
+                height: 100px;
+                width: 100px;
+                bottom:10px;
+                right: 10px;
+                }
+         #barra4{
+                    position: absolute;
+                    background-color: rgb(236, 32, 83);
+                    height: 100px;
+                    width: 100px;
+                    top:10px;
+                    right: 10px;
+                 }
+        #barra5{
+                    position: absolute;
+                    background-color: rgb(9, 121, 24);
+                    height: 100px;
+                    width: 100px;
+                    top:50%; 
+                    
+                    right:calc(50% - 50px);
+                    
+                 }
